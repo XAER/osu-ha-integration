@@ -20,7 +20,7 @@ func main() {
 		log.Fatal("No .env file found")
 	}
 
-	conf := config.LoadConfig("config/config.yaml")
+	conf := config.LoadConfig("/config.yaml")
 
 	clientID := os.Getenv("OSU_CLIENT_ID")
 	clientSecret := os.Getenv("OSU_CLIENT_SECRET")
