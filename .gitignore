@@ -1,0 +1,26 @@
+# Binaries
+/bin/
+/build/
+osu-ha
+*.exe
+*.out
+
+# Go stuff
+*.test
+*.log
+coverage.out
+
+# Dependency files
+vendor/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OSU API token
+.env
+
+# Docker
+*.tar
